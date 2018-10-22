@@ -1,0 +1,45 @@
+.ZcPopover {
+  position: absolute;
+  z-index: 1000;
+}
+.ZcPopover--container {
+  position: relative;
+  background-color: #fff;
+  max-height: 200px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+}
+.ZcPopover--list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.ZcPopover--list--item {
+  height: 2em;
+  line-height: 2;
+  padding: 0 8px;
+  cursor: pointer;
+  color: #444;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.ZcPopover--list--item:hover,
+.ZcPopover--list--item.Zc-list-active {
+  background-color: #f6f6f6; 
+}
+.ZcPopover--list--header {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  color: #777;
+  padding: 0 8px;
+  font-size: 16px;
+}
+.ZcPopover--notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}

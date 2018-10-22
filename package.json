@@ -1,0 +1,32 @@
+{
+  "name": "zengin-code-model",
+  "version": "1.0.0",
+  "description": "zengin-codeのvue directiveラッパー",
+  "main": "dist/build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainuio/zengin-code-model.git"
+  },
+  "author": "sainuio <sainu@pressblog.co.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sainuio/zengin-code-model/issues"
+  },
+  "homepage": "https://github.com/sainuio/zengin-code-model#readme",
+  "dependencies": {
+    "zengin-code": "^1.0.0-p20180607"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-command": "^0.4.1"
+  }
+}
